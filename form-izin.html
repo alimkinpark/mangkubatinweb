@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pembuatan Izin</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <main>
+        
+        <div id="content">
+            <div class="card">
+                <h3>Form Pembuatan Izin PT. Mangku Batin Abadi</h3>
+
+                <form action="perizinan.html" method="post">
+
+                    <section>
+                        <label for="name">Nama Pemohon</label>
+                        <input type="text" placeholder="Beni Pratama" name="name">
+                    </section>
+    
+                    <section>
+                        <label for="gelar">Gelar</label>
+                        <select name="gelar" id="">
+                            <option value="tuan">Tuan</option>
+                            <option value="nyonya">Nyonya</option>
+                        </select>
+                    </section>
+
+                    <section>
+                        <label for="jabatan">Jabatan</label>
+                        <textarea name="jabatan" id="" rows="4"></textarea>
+                    </section>
+
+                    <section>
+                        <label for="alamat">Alamat Kegiatan</label>
+                        <textarea name="alamat" id="" rows="4"></textarea>
+                    </section>
+
+                    <section>
+                        <label for="phone">No. Telp</label>
+                        <input type="number" placeholder="(021) 555 212 21" name="phone">
+                    </section>
+
+                    <section>
+                        <label for="type">Jenis Izin</label>
+                        <select name="type" id="">
+                            <option value="1p">1P (Penggunaan Sisa)</option>
+                            <option value="2p new">2P Baru</option>
+                            <option value="2p extend">2P Perpanjangan</option>
+                        </select>
+                    </section>
+                    
+                    <section>
+                        <label for="status">Status</label>
+                        <select name="status" id="">
+                            <option value="baru">Baru</option>
+                            <option value="perpanjang">Perpanjang</option>
+                        </select>
+                    </section>
+
+                    <section>
+                        <label for="ttd">Tanda Tangan</label>
+                        <input type="file" name="ttd">
+                    </section>
+
+                    <section>
+                        <label for="dokumen">SPO / SO / WO</label>
+                        <input type="file" name="dokumen">
+                    </section>
+
+                    <section>
+                        <label for="persyaratan">Persyaratan</label>
+                        <input type="file" name="persyaratan">
+                    </section>                    
+    
+                    <button class="btn btn-gradient-green m-auto" type="submit">Kirim</button>
+                </form>
+            </div>
+        </div>
+
+        <aside>
+            <div class="card">
+                <h3><span>*</span> Persyaratan Administrasi :</h3>
+
+                <section>
+                    <h4>1P :</h4>
+                    <ul>
+                        <li>Permohonan</li>
+                        <li>Rek. Polda</li>
+                        <li>Bab Handak</li>
+                        <li>Izin gudang dari Pertambangan Migas</li>
+                        <li>SI 3P</li>
+                        <li>Dasar SI yang Diperpanjang</li>
+                        <li>Fotocopy Lapbul 6 bulan terakhir</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>2P Baru :</h4>
+                    <ul>
+                        <li>Permohonan</li>
+                        <li>Rencana Pembelian & Penggunaan</li>
+                        <li>SPPA</li>
+                        <li>Rek. Kapolda</li>
+                        <li>Rek. Ditjen Migas</li>
+                        <li>SI 3P</li>
+                        <li>SIUP</li>
+                        <li>Kontrak Kerjasama</li>
+                        <li>Izin gudang dari pertambangan umum / Migas</li>
+                        <li>Fotocopy Lapbul 1 bulan terakhir</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>2P Perpanjangan :</h4>
+                </section>
+            </div>
+        </aside>
+
+    </main>
+    
+</body>
+</html>
